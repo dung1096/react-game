@@ -1,0 +1,32 @@
+@font-face {
+    font-family: ponyFont;
+    src: url(./Pony.ttf);
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 30px;
+}
+
+.diceGame {
+    font-family: ponyFont;
+}
+
+h3,
+span,
+button {
+    text-transform: uppercase;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.row {
+    margin: 0;
+}
