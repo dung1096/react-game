@@ -1,0 +1,31 @@
+@font-face {
+    font-family: ponyFont;
+    src: url(./Pony.ttf);
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+.gourdCrabShrimpFishGame {
+    font-family: ponyFont;
+}
+
+h2,
+button {
+    text-transform: uppercase;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.row {
+    margin: 0;
+}
